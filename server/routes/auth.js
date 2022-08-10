@@ -1,0 +1,7 @@
+const express = require('express')
+const app = express()
+const cors = require('cors')
+const User = require('./models/user.model')
+const Product = require('./models/product.model')
+const jwt = require('jsonwebtoken')
+const bcrypt = require('bcryptjs')
